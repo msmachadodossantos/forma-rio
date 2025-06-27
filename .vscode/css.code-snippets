@@ -37,10 +37,9 @@
     ],
     "description": "Establishes a foundational CSS structure with a mobile-first approach, dark mode, responsive breakpoints, and print styles.",
   },
-  "Forma Rio: Create CSS variable": {
-    "prefix": ["--fr", "fr-var"],
-    "scope": "css",
-    "body": ["--forma-rio-${1:variable-name}: ${2:value};$0"],
-    "description": "Creates a complete CSS variable with the prefix --forma-rio-",
+  "oklch": {
+    "prefix": "oklch",
+    "body": ["oklch(${1:Brightness} ${2:Chroma} ${3:Hue} / ${4:Opacity})"],
+    "description": "oklch",
   },
 }
