@@ -42,8 +42,6 @@ function adjustOklchLightness(cssVariableName, percentageModification) {
   // For example, 10% becomes 0.10.
   let numericPercentage = parseFloat(percentageModification) / 100;
 
-  // ---
-
   // Adjust the lightness based on the `percentageModification`.
   // If `numericPercentage` is positive (e.g., 0.10 for 10%), we want to make the color darker,
   // so we subtract from the lightness: `lightness - (lightness * 0.10)`.
