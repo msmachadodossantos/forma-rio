@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --forma-rio-max-z-index: 1000;
+
+    --fr-font-size-base: 16px;
+
+    --fr-font-family-sans: "Noto Sans", sans-serif;
+    --fr-font-family-serif: "Noto Serif", serif;
+    --fr-font-family-monospace: "Noto Sans Mono", monospace;
+
+    --fr-font-size-display: calc(var(--fr-font-size-base) * 5);
+    --fr-font-size-title: calc(var(--fr-font-size-base) * 3);
+    --fr-font-size-subtitle: calc(var(--fr-font-size-base) * 2);
+    --fr-font-size-primary: calc(var(--fr-font-size-base) * 1);
+    --fr-font-size-secondary: calc(var(--fr-font-size-base) * 0.9);
+    --fr-font-size-tertiary: calc(var(--fr-font-size-base) * 0.8);
+
+    --fr-line-height-display: calc(var(--fr-font-size-display) * 1);
+    --fr-line-height-title: calc(var(--fr-font-size-title) * 1);
+    --fr-line-height-subtitle: calc(var(--fr-font-size-subtitle) * 1);
+    --fr-line-height-primary: calc(var(--fr-font-size-primary) * 1.5);
+    --fr-line-height-secondary: calc(var(--fr-font-size-secondary) * 1.8);
+    --fr-line-height-tertiary: calc(var(--fr-font-size-tertiary) * 2.3);
+}
+
+/* Overrides for the dark color theme. */
+@media (prefers-color-scheme: dark) {}
