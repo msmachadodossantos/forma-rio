@@ -1,0 +1,45 @@
+/*
+ * Establishes the foundational styles for the entire application.
+ * These are mobile-first and default to the light color theme.
+ */
+
+body {
+    font-family: var(--fr-font-family-sans);
+    font-size: var(--fr-font-size-primary);
+    line-height: calc(var(--fr-font-size-primary) * 1.5);
+}
+
+noscript {
+    align-items: center;
+    /* FIXME: Ensure the expression uses a variable instead of a fixed color. */
+    background-color: red;
+    /* FIXME: Ensure the expression uses a variable instead of a fixed color. */
+    color: white;
+    display: flex;
+    font-family: var(--fr-font-family-monospace);
+    font-size: var(--fr-font-size-secondary);
+    height: calc(100% - var(--fr-font-size-base) * 2);
+    justify-content: center;
+    left: 0;
+    line-height: var(--fr-line-height-secondary);
+    padding: var(--fr-font-size-base);
+    position: absolute;
+    top: 0;
+    width: calc(100% - var(--fr-font-size-base) * 2);
+    z-index: calc(var(--forma-rio-max-z-index) + 1);
+}
+
+/* Overrides for the dark color theme. */
+@media (prefers-color-scheme: dark) {}
+
+/* Adjusts layout for medium screen sizes and up (e.g., tablets). */
+@media screen and (min-width: calc(768px * 1)) {}
+
+/* Adjusts layout for large screen sizes and up (e.g., desktops). */
+@media screen and (min-width: calc(768px * 2)) {}
+
+/* Defines print-specific styles for the document. */
+@media print {
+    /* Example: Hide non-essential elements for printing. */
+    /* nav, footer { display: none; } */
+}
