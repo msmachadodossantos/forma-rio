@@ -1,0 +1,8 @@
+{
+  "Forma Rio: Create CSS variable": {
+    "prefix": ["--fr", "fr-var"],
+    "scope": "css",
+    "body": ["--forma-rio-${1:variable-name}: ${2:value};$0"],
+    "description": "Creates a complete CSS variable with the prefix --forma-rio-",
+  },
+}
