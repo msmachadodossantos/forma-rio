@@ -1,0 +1,28 @@
+{
+  // Configure the editor
+  "editor.cursorStyle": "block",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always"
+  },
+
+  // Configure the terminal
+
+  // Enable/Disable features
+
+  // Set up language-specific settings
+  // See: https://code.visualstudio.com/docs/languages/identifiers
+  "[css]": {},
+  "[javascript]": {},
+  "[scss]": {},
+  "[html]": {}
+
+  // Configure extensions
+
+  // Customizations
+
+  // Other settings
+}
